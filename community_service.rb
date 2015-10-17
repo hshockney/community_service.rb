@@ -14,7 +14,7 @@ def import_file_info
 			else
 				hours = hours_remaining(row)
 				days = days_left(row)
-				risk= risk_factor(row)
+				risk= (hours / days).round(2)
 				new = (row.push(hours, days, risk)).join(",")
 				newfile.print "#{new}\n"
 			end
@@ -36,13 +36,16 @@ def days_left(array)
 	
 	if array[6] == nil
 		array[6] = "1.1.70"
+	elsif
+		array[6].include? "?"
+		array[6] = "1.1.70"
 	end
 	
 	max_date = array[6] #formatted MM/DD/YYYY/
 	
 	modified_max_date_array = max_date.split(".")
 	modified_max_date = modified_max_date_array[2] + "." + modified_max_date_array[0]+ "." + modified_max_date_array[1]
-	(Date.parse(modified_max_date) - today).to_i
+	days_left=(Date.parse(modified_max_date) - today).to_i
 	
 end
 
