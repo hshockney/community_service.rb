@@ -1,72 +1,72 @@
-Name,Town,Phone,Alt Phone,Hours,Completed,Max Date,Risk,Status,Employed,Trans. Prob,Medical,Drugs,Sex Off.,Skills,Mag/PO,Site,Hours Remaining,Days Remaining,Risk Factor
-1000000,Wbg,111-1111,,75,56.25,9.16.15,,,,,,,,,Taylor,,18.75,-31,-0.6
-1000001,,111-1112,,50,37.5,9.27.16,,,,,,,,,Taylor,,12.5,346,0.04
-1000002,Holbrook,111-1113,,300,33,2.22.16,,,,,,,,,Taylor,,267.0,128,2.09
-1000003,Carmichaels,111-1114,,75,0,1.1.70,,,,,,,,,Taylor,Salvation Army,75.0,-16725,-0.0
-1000004,Carmichaels,111-1115,,225,,6.21.15,,,Y,,,,,,Taylor,,225.0,-118,-1.91
-1000005,Carmichaels,111-1116,222-2222,,,1.1.70,,,,,,,,,Taylor,,0.0,-16725,-0.0
-1000006,Bobtown,111-1117,,75,21,5.9.16,,,,,,,,,Taylor,,54.0,205,0.26
-1000007,Prosperity,111-1118,222-2223,75,,8.11.16,,,N,N,N,N,N,,Hillsman,,75.0,299,0.25
-1000008,Spraggs,111-1119,,100,50,12.15.16,,,N,N,N,N,Y,,Hillsman,,50.0,425,0.12
-1000009,,111-1120,,150,18,1.1.70,,,Y,,,,,,Kiger,,132.0,-16725,-0.01
-1000010,Wbg,111-1121,,125,46,8.24.16,,,Y,,,,,,Kiger,,79.0,312,0.25
-1000011,Crucible,111-1122,,150,18.5,9.14.16,,,N,,,,,,Kiger,,131.5,333,0.39
-1000012,Clarksville,111-1123,,225,70,2.8.17,,,Y,,,,,,Kiger,Jefferson Twp,155.0,480,0.32
-1000013,Wbg,111-1124,,125,0,1.1.70,,,,,,,,,Kiger,,125.0,-16725,-0.01
-1000014,Wbg,111-1125,,225,0,1.1.70,,,,,,,,,Kiger,,225.0,-16725,-0.01
-1000015,Mt.Morris,111-1126,222-2224,70,0,11.9.15,,,,,,,,,Dayich,,70.0,23,3.04
-1000016,Rogersville,111-1127,,40,0,11.12.15,,,,,,,,,Dayich,,40.0,26,1.54
-1000017,Graysville,111-1128,,63,0,2.23.16,,,,,,,,,Dayich,,63.0,129,0.49
-1000018,Wbg,111-1129,,10,5,1.1.70,,,,,,,,,Dayich,,5.0,-16725,-0.0
-1000019,Wbg,111-1130,,125,0,1.1.70,,,,,,,,,Dayich,,125.0,-16725,-0.01
-1000020,Brave,111-1131,,9,0,9.7.15,,,,,,,,,Bates,,9.0,-40,-0.23
-1000021,Wbg,111-1132,,28,0,12.10.15,,,,,,,,,Bates,,28.0,54,0.52
-1000022,Wbg,111-1133,,307,0,1.11.16,,,,,,,,,Bates,WWJD,307.0,86,3.57
-1000023,Wbg,111-1134,,26,0,12.10.15,,,,,,,,,Bates,,26.0,54,0.48
-1000024,Jefferson,111-1135,,,0,1.1.70,,,,,,,,,Bates,,0.0,-16725,-0.0
-1000025,Lippencott,111-1136,,175,6,1.1.70,,,,,,,,,Downer,,169.0,-16725,-0.01
-1000026,Wbg,111-1137,,90,21,6.9.15,,,,,,,,,Downer,,69.0,-130,-0.53
-1000027,Jacktown,111-1138,,90,0,2.9.16,,,,,,,,,Downer,,90.0,115,0.78
-1000028,Wbg,111-1139,,90,6,5.11.20,,,,,,,,,Downer,,84.0,1668,0.05
-1000029,Wbg,111-1140,222-2225,90,0,5.11.16,,,,,,,,,Downer,,90.0,207,0.43
-1000030,Sycamore,111-1141,222-2226,90,0,5.12.15,,,,,,,,,Downer,,90.0,-158,-0.57
-1000031,Clarksville,111-1142,,50,0,9.14.17,,,,,,,,,Downer,,50.0,698,0.07
-1000032,Holbrook,111-1143,,300,4,2.22.16,,,,,,,,,Downer,,296.0,128,2.31
-1000033,Wbg,111-1144,,90,0,5.11.16,,,,,,,,,Downer,,90.0,207,0.43
-1000034,Graysville,111-1145,222-2227,75,0,1.12.16,,,,,,,,,Downer,,75.0,87,0.86
-1000035,Wbg,111-1146,,100,16,11.10.17,,,,,,,,,Downer,,84.0,755,0.11
-1000036,Wbg,111-1147,222-2228,50,0,2.15.17,,,,,,,,,Downer,,50.0,487,0.1
-1000037,Wbg,111-1148,,,12,1.1.70,,,,,,,,,Downer,,-12.0,-16725,0.0
-1000038,Wbg,111-1149,,90,12,9.14.16,,,,,,,,,Downer,,78.0,333,0.23
-1000039,Wbg,111-1150,,250,53,6.11.20,,,N,Y,N,Y,N,,Jones,,197.0,1699,0.12
-1000040,Carmichaels,111-1151,,150,19,1.12.18,,,Y,N,N,N,N,,Jones,,131.0,818,0.16
-1000041,Wbg,111-1152,222-2229,400,17,11.23.16,,,N,Y,N,Y,N,,Jones,,383.0,403,0.95
-1000042,Wbg,111-1153,,375,22,5.17.18,,,Y,N,N,N,N,,Jones,,353.0,943,0.37
-1000043,Rices Landing,111-1154,222-2230,300,0,12.20.15,,,N,Y,N,Y,N,,Jones,,300.0,64,4.69
-1000044,Mather,111-1155,222-2231,50,11.5,12.9.15,,,N,N,N,N,N,,Jones,,38.5,53,0.73
-1000045,Wbg,111-1156,,125,11,1.30.17,,,N,N,N,N,N,,Jones,,114.0,471,0.24
-1000046,Carmichaels,111-1157,,225,13.5,6.28.16,,,Y,N,N,N,N,,Jones,,211.5,255,0.83
-1000047,Nemacolin,111-1158,,50,5,3.31.17,,,N,Y,N,N,N,,Jones,,45.0,531,0.08
-1000048,Bobtown,111-1159,,100,0,4.14.19,,,Y,N,N,N,N,,Jones,,100.0,1275,0.08
-1000049,Spraggs,111-1160,,50,25,12.8.16,,,N,Y,N,Y,N,,Jones,,25.0,418,0.06
-1000050,Jefferson,111-1161,,100,8,11.12.16,,,Y,N,N,Y,N,,Jones,,92.0,392,0.23
-1000051,Bobtown,111-1162,222-2232,125,76.5,5.6.17,,,N,Y,N,N,N,,Jones,,48.5,567,0.09
-1000052,Mt. Morris,111-1163,,50,32,2.2.17,,,N,Y,N,N,N,,Jones,,18.0,474,0.04
-1000053,Brave,111-1164,,75,0,5.3.17,,,Y,N,N,N,N,,Jones,,75.0,564,0.13
-1000054,Dilliner,111-1165,,90,67.5,5.3.17,,,Y,N,N,N,N,,Jones,,22.5,564,0.04
-1000055,Wbg,111-1166,,175,14,1.9.18,,,Y,,,,,,Hartman,,161.0,815,0.2
-1000056,Wbg,111-1167,,150,15,8.26.16,,,Y,,,,,,Hartman,,135.0,314,0.43
-1000057,Wbg,111-1168,,225,71.5,3.3.18,,,Y,,,,,,Hartman,,153.5,868,0.18
-1000058,Wbg,111-1169,,315,111,11.12.19,,,N,,,,,,Hartman,,204.0,1487,0.14
-1000059,Wbg,111-1170,,225,30,3.13.18,,,Y,,,,,,Hartman,,195.0,878,0.22
-1000060,Greensboro,111-1171,,225,50,2.26.16,,,N,,,,,,Hartman,,175.0,132,1.33
-1000061,Wbg,111-1172,,475,63,6.4.19,,,Y,,,,,,Hartman,,412.0,1326,0.31
-1000062,Bobtown,111-1173,,225,50,4.7.16,,,N,,,,,,Hartman,,175.0,173,1.01
-1000063,Carmichaels,111-1174,,125,0,9.1.20,,,N,,,,,,Hartman,,125.0,1781,0.07
-1000064,Mt. Morris,111-1175,,225,15,7.25.18,,,,,,,,,Hartman,,210.0,1012,0.21
-1000065,Wbg,111-1176,,225,40,10.18.18,,,Y,,,,,,Hartman,,185.0,1097,0.17
-1000066,Carmichaels,111-1177,,215,0,6.11.20,,,N,,,,,,Hartman,,215.0,1699,0.13
-1000067,Wbg,111-1178,,225,10,9.18.19,,,Y,,,,,,Hartman,,215.0,1432,0.15
-1000068,Jefferson,111-1179,,250,90,11.11.20,,,Y,,,,,,Hartman,Jefferson Twp,160.0,1852,0.09
-1000069,Wbg,111-1180,,225,64,7.30.19,,,Y,,,,,,Hartman,,161.0,1382,0.12
-1000070,Carmichaels,111-1181,,125,0,5.28.19,,,Y,,,,,,Hartman,,125.0,1319,0.09
+Name,Town,Phone,Alt Phone,Hours,Completed,Max Date,Risk,Status,Employed,Trans. Prob,Medical,Drugs,Sex Off.,Skills,Mag/PO,Site,Hours Remaining,Days Remaining
+1000000,Wbg,111-1111,,75,56.25,9.16.15,,,,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000001,,111-1112,,50,37.5,9.27.16,,,,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000002,Holbrook,111-1113,,300,33,2.22.16,,,,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000003,Carmichaels,111-1114,,75,0,,,,,,,,,,Taylor,Salvation Army,Hours Remaining,Days Remaining
+1000004,Carmichaels,111-1115,,225,,6.21.15,,,Y,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000005,Carmichaels,111-1116,222-2222,,,,,,,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000006,Bobtown,111-1117,,75,21,5.9.16,,,,,,,,,Taylor,,Hours Remaining,Days Remaining
+1000007,Prosperity,111-1118,222-2223,75,,8.11.16,,,N,N,N,N,N,,Hillsman,,Hours Remaining,Days Remaining
+1000008,Spraggs,111-1119,,100,50,12.15.16,,,N,N,N,N,Y,,Hillsman,,Hours Remaining,Days Remaining
+1000009,,111-1120,,150,18,,,,Y,,,,,,Kiger,,Hours Remaining,Days Remaining
+1000010,Wbg,111-1121,,125,46,8.24.16,,,Y,,,,,,Kiger,,Hours Remaining,Days Remaining
+1000011,Crucible,111-1122,,150,18.5,9.14.16,,,N,,,,,,Kiger,,Hours Remaining,Days Remaining
+1000012,Clarksville,111-1123,,225,70,2.8.17,,,Y,,,,,,Kiger,Jefferson Twp,Hours Remaining,Days Remaining
+1000013,Wbg,111-1124,,125,0,?.?.22,,,,,,,,,Kiger,,Hours Remaining,Days Remaining
+1000014,Wbg,111-1125,,225,0,,,,,,,,,,Kiger,,Hours Remaining,Days Remaining
+1000015,Mt.Morris,111-1126,222-2224,70,0,11.9.15,,,,,,,,,Dayich,,Hours Remaining,Days Remaining
+1000016,Rogersville,111-1127,,40,0,11.12.15,,,,,,,,,Dayich,,Hours Remaining,Days Remaining
+1000017,Graysville,111-1128,,63,0,2.23.16,,,,,,,,,Dayich,,Hours Remaining,Days Remaining
+1000018,Wbg,111-1129,,10,5,,,,,,,,,,Dayich,,Hours Remaining,Days Remaining
+1000019,Wbg,111-1130,,125,0,,,,,,,,,,Dayich,,Hours Remaining,Days Remaining
+1000020,Brave,111-1131,,9,0,9.7.15,,,,,,,,,Bates,,Hours Remaining,Days Remaining
+1000021,Wbg,111-1132,,28,0,12.10.15,,,,,,,,,Bates,,Hours Remaining,Days Remaining
+1000022,Wbg,111-1133,,307,0,1.11.16,,,,,,,,,Bates,WWJD,Hours Remaining,Days Remaining
+1000023,Wbg,111-1134,,26,0,12.10.15,,,,,,,,,Bates,,Hours Remaining,Days Remaining
+1000024,Jefferson,111-1135,,,0,,,,,,,,,,Bates,,Hours Remaining,Days Remaining
+1000025,Lippencott,111-1136,,175,6,,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000026,Wbg,111-1137,,90,21,6.9.15,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000027,Jacktown,111-1138,,90,0,2.9.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000028,Wbg,111-1139,,90,6,5.11.20,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000029,Wbg,111-1140,222-2225,90,0,5.11.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000030,Sycamore,111-1141,222-2226,90,0,5.12.15,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000031,Clarksville,111-1142,,50,0,9.14.17,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000032,Holbrook,111-1143,,300,4,2.22.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000033,Wbg,111-1144,,90,0,5.11.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000034,Graysville,111-1145,222-2227,75,0,1.12.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000035,Wbg,111-1146,,100,16,11.10.17,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000036,Wbg,111-1147,222-2228,50,0,2.15.17,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000037,Wbg,111-1148,,,12,,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000038,Wbg,111-1149,,90,12,9.14.16,,,,,,,,,Downer,,Hours Remaining,Days Remaining
+1000039,Wbg,111-1150,,250,53,6.11.20,,,N,Y,N,Y,N,,Jones,,Hours Remaining,Days Remaining
+1000040,Carmichaels,111-1151,,150,19,1.12.18,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000041,Wbg,111-1152,222-2229,400,17,11.23.16,,,N,Y,N,Y,N,,Jones,,Hours Remaining,Days Remaining
+1000042,Wbg,111-1153,,375,22,5.17.18,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000043,Rices Landing,111-1154,222-2230,300,0,12.20.15,,,N,Y,N,Y,N,,Jones,,Hours Remaining,Days Remaining
+1000044,Mather,111-1155,222-2231,50,11.5,12.9.15,,,N,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000045,Wbg,111-1156,,125,11,1.30.17,,,N,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000046,Carmichaels,111-1157,,225,13.5,6.28.16,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000047,Nemacolin,111-1158,,50,5,3.31.17,,,N,Y,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000048,Bobtown,111-1159,,100,0,4.14.19,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000049,Spraggs,111-1160,,50,25,12.8.16,,,N,Y,N,Y,N,,Jones,,Hours Remaining,Days Remaining
+1000050,Jefferson,111-1161,,100,8,11.12.16,,,Y,N,N,Y,N,,Jones,,Hours Remaining,Days Remaining
+1000051,Bobtown,111-1162,222-2232,125,76.5,5.6.17,,,N,Y,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000052,Mt. Morris,111-1163,,50,32,2.2.17,,,N,Y,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000053,Brave,111-1164,,75,0,5.3.17,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000054,Dilliner,111-1165,,90,67.5,5.3.17,,,Y,N,N,N,N,,Jones,,Hours Remaining,Days Remaining
+1000055,Wbg,111-1166,,175,14,1.9.18,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000056,Wbg,111-1167,,150,15,8.26.16,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000057,Wbg,111-1168,,225,71.5,3.3.18,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000058,Wbg,111-1169,,315,111,11.12.19,,,N,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000059,Wbg,111-1170,,225,30,3.13.18,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000060,Greensboro,111-1171,,225,50,2.26.16,,,N,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000061,Wbg,111-1172,,475,63,6.4.19,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000062,Bobtown,111-1173,,225,50,4.7.16,,,N,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000063,Carmichaels,111-1174,,125,0,9.1.20,,,N,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000064,Mt. Morris,111-1175,,225,15,7.25.18,,,,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000065,Wbg,111-1176,,225,40,10.18.18,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000066,Carmichaels,111-1177,,215,0,6.11.20,,,N,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000067,Wbg,111-1178,,225,10,9.18.19,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000068,Jefferson,111-1179,,250,90,11.11.20,,,Y,,,,,,Hartman,Jefferson Twp,Hours Remaining,Days Remaining
+1000069,Wbg,111-1180,,225,64,7.30.19,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining
+1000070,Carmichaels,111-1181,,125,0,5.28.19,,,Y,,,,,,Hartman,,Hours Remaining,Days Remaining

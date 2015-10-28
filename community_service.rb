@@ -3,27 +3,37 @@ require 'date'
 
 
 def import_file_info
-#input is a csv, output is new_array
-	probationers = CSV.read('Community_service_scrubbed.csv')
+#input is a csv, output is new updated csv file
+	
 	newfile = File.open('risk_factor_file.csv', "w")
 		
 		CSV.foreach ('Community_service_scrubbed.csv') do |row|
-			if row[0] == "Name"
-				header = row.join(",")
-				newfile.print header << ",Hours Remaining,Days Remaining,Risk Factor\n"
+			if	header = (row.push("Hours Remaining,Days Remaining")).join(",")
+				newfile.print "#{header}\n"
 			else
 				hours = hours_remaining(row)
-				days = days_left(row)
-				risk= (hours / days).round(2)
-				new = (row.push(hours, days, risk)).join(",")
+				converted_date = convert_date_format(row)
+				days = days_left(converted_date, Date.today)
+				risk= risk_factor(hours,days, row)
+				row[7] = risk
+				row[6] = "" if row[6] == "70-1-1"
+				days - "Missing Data" if days < -10000
+				hours = "Missing Data" if row[4] == nil || row[5] == nil
+				new = (row.push(hours, days,)).join(",")
+				
+				
 				newfile.print "#{new}\n"
+				end
 			end
-		end
+			newfile.close
+	end	
+		
 	
-end
+
 
 
 def hours_remaining(array)
+#Input is an array of 
 		assigned = array[4].to_f
 		completed = array[5].to_f
 	
@@ -31,31 +41,50 @@ def hours_remaining(array)
  
 end
 
-def days_left(array)
-	today = Date.today #format YYYY/MM/DD
+def convert_date_format(array)
+	array[6] = "1.1.70"	if array[6] == nil
 	
-	if array[6] == nil
-		array[6] = "1.1.70"
-	elsif
-		array[6].include? "?"
-		array[6] = "1.1.70"
+	old_date_string = array[6]	
+	old_date = old_date_string.split "."
+	
+	old_date[0] = "01" if old_date[0] =~ /\D/
+	old_date[1] = "01" if old_date[1] =~ /\D/
+	old_date[2] = "1970" if old_date[2] =~ /\D/
+	
+	new_date = "#{old_date[2]}-#{old_date[0]}-#{old_date[1]}"
+	array[6] = new_date
+
+	array
+end
+
+def days_left(array, date)
+today = (date).to_s
+	days = Date.parse(array[6]) - Date.parse(today)
+	days_left = days.to_i
+end	
+
+def risk_factor(hours, days, row)
+	days = -1 if days == 0
+	risk = hours / days.to_f
+	if row[4] == nil || row[5] == nil || row[6] == "70-1-1"
+		risk_factor = "Missing Data"
+	elsif risk == 0
+		risk_factor = "Hours Completed"
+	elsif risk < 0
+		risk_factor = "High Risk"
+	else 
+		risk_factor = risk.round(2)
 	end
-	
-	max_date = array[6] #formatted MM/DD/YYYY/
-	
-	modified_max_date_array = max_date.split(".")
-	modified_max_date = modified_max_date_array[2] + "." + modified_max_date_array[0]+ "." + modified_max_date_array[1]
-	days_left=(Date.parse(modified_max_date) - today).to_i
-	
 end
 
-def risk_factor(array)
 
 
 
 
 
 
-end
+
+
+
 import_file_info
 
