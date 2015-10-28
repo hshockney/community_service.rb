@@ -8,7 +8,8 @@ def import_file_info
 	newfile = File.open('risk_factor_file.csv', "w")
 		
 		CSV.foreach ('Community_service_scrubbed.csv') do |row|
-			if	header = (row.push("Hours Remaining,Days Remaining")).join(",")
+			if row[0] == "Name"
+				header = (row.push("Hours Remaining,Days Remaining")).join(",")
 				newfile.print "#{header}\n"
 			else
 				hours = hours_remaining(row)
@@ -17,7 +18,7 @@ def import_file_info
 				risk= risk_factor(hours,days, row)
 				row[7] = risk
 				row[6] = "" if row[6] == "70-1-1"
-				days - "Missing Data" if days < -10000
+				days = "Missing Data" if days < -10000
 				hours = "Missing Data" if row[4] == nil || row[5] == nil
 				new = (row.push(hours, days,)).join(",")
 				
