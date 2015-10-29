@@ -42,6 +42,32 @@ def hours_remaining(array)
  
 end
 
+def get_new_date_format(initial_date)
+	initial_date = "1.1.70"	if initial_date == nil
+	
+		
+	old_date = initial_date.split "."
+	
+	old_date[0] = "01" if old_date[0] =~ /\D/
+	old_date[1] = "01" if old_date[1] =~ /\D/
+	old_date[2] = "1970" if old_date[2] =~ /\D/
+	
+	new_date = "#{old_date[2]}-#{old_date[0]}-#{old_date[1]}"
+	
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
 def convert_date_format(array)
 	array[6] = "1.1.70"	if array[6] == nil
 	

@@ -29,7 +29,11 @@ class Main_test < Minitest::Test
 		assert_equal(["1000000","Wbg","111-1111","","75","56.25","15-9-16","","","","","","","","","Taylor",""],convert_date_format(["1000000","Wbg","111-1111","","75","56.25","9.16.15","","","","","","","","","Taylor",""]))
 	end
 	
-	
+	def test_get_new_date_format
+		assert_equal("15-9-16",get_new_date_format("9.16.15"))
+		assert_equal("70-1-1",get_new_date_format(nil))
+		assert_equal("70-1-1", get_new_date_format("?.?.22"))
+		end
 	
 	
 	
